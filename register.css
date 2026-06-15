@@ -1,0 +1,328 @@
+/* =========================
+   GLOBAL
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0b0f1a;
+    color: white;
+}
+
+/* =========================
+    SCROLLBAR
+========================= */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0b0f1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff2e63;
+    border-radius: 10px;
+}
+
+/* =========================
+   BACKGROUND
+========================= */
+
+.background-overlay {
+    position: fixed;
+    inset: 0;
+    background:
+        linear-gradient(135deg, rgba(255,46,99,0.25), rgba(0,0,0,0.9)),
+        url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    filter: blur(6px);
+    z-index: 0;
+}
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+
+.register-container {
+    position: relative;
+    z-index: 10;
+    width: 90%;
+    max-width: 1100px;
+    height: 110vh;
+    margin: auto;
+    top: 5vh;
+    display: flex;
+    border-radius: 25px;
+    overflow: hidden;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* =========================
+   LEFT SIDE
+========================= */
+
+.register-left {
+    flex: 1;
+    padding: 60px;
+    background: linear-gradient(135deg, rgba(255,46,99,0.15), rgba(0,0,0,0.2));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.logo i {
+    font-size: 28px;
+    color: #ff2e63;
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.register-left h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+
+.register-left p {
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 35px;
+    line-height: 28px;
+}
+
+/* =========================
+   FEATURES
+========================= */
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 15px;
+    color: rgba(255,255,255,0.85);
+}
+
+.feature i {
+    color: #ff2e63;
+}
+
+/* =========================
+   RIGHT SIDE
+========================= */
+
+.register-right {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =========================
+   FORM
+========================= */
+
+.register-form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.register-form h2 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 30px;
+}
+
+/* =========================
+   INPUTS
+========================= */
+
+.input-box {
+    margin-bottom: 18px;
+}
+
+.input-box label {
+    font-size: 13px;
+    color: rgba(255,255,255,0.8);
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255,255,255,0.08);
+    padding: 12px 15px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+.input-field i {
+    color: rgba(255,255,255,0.6);
+}
+
+.input-field input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}
+
+/* eye icon */
+.togglePassword {
+    cursor: pointer;
+}
+
+/* =========================
+   OPTIONS
+========================= */
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 13px;
+    color: rgba(255,255,255,0.7);
+}
+
+.remember input {
+    margin-right: 8px;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+.register-btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #ff2e63, #ff5f43);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.register-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(255,46,99,0.35);
+}
+
+/* =========================
+   DIVIDER
+========================= */
+
+.divider {
+    text-align: center;
+    margin: 25px 0;
+    position: relative;
+    color: rgba(255,255,255,0.5);
+}
+
+.divider span {
+    background: transparent;
+}
+
+/* =========================
+   SOCIAL BUTTONS
+========================= */
+
+.social-login {
+    display: flex;
+    gap: 12px;
+}
+
+.social-login button {
+    flex: 1;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s;
+}
+
+.google-btn {
+    background: #db4437;
+}
+
+.facebook-btn {
+    background: #1877f2;
+}
+
+.social-login button:hover {
+    transform: translateY(-2px);
+}
+
+/* =========================
+   LOGIN LINK
+========================= */
+
+.login-link {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: rgba(255,255,255,0.7);
+}
+
+.login-link a {
+    color: #ff2e63;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* =========================
+    RESPONSIVE
+========================= */
+
+@media(max-width: 900px) {
+
+    .register-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .register-left {
+        display: none;
+    }
+
+    .register-right {
+        padding: 40px 25px;
+    }
+}
