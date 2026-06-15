@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineVerse | Premium OTT Platform</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-film"></i>
+            <h1>CineVerse</h1>
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trending">Movies</a></li>
+                <li><a href="#ott">Series</a></li>
+                <li><a href="#trending">Trending</a></li>
+                <li><a href="#top-picks">My List</a></li>
+            </ul>
+        </nav>
+
+        <div class="nav-right">
+
+            <div class="search-box">
+                <input type="text" placeholder="Search movies...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <a href="../login/regester.html" class="login-btn">Login</a>
+            
+        </div>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-overlay">
+            <video autoplay muted loop id="bg-video">
+                <source src="../movies/dw.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="hero-content">
+
+
+            <span class="tag">#1 Trending Movie</span>
+
+            <h1>DHURANDHAR <br> THE REVENGE</h1>
+
+            <p>
+                Experience the world’s most immersive streaming platform with
+                blockbuster movies, premium TV shows, and exclusive originals.
+            </p>
+
+            <div class="hero-buttons">
+                <button class="play-btn watch-Btn">
+                    Play Now
+                    <div class="hidden-video">
+                            <!-- Hidden Video -->
+                        <video class="movie-video" controls>
+                            <source src="../movies/dw.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </button>
+
+                <button class="info-btn">
+                    More Info
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= TRENDING SECTION ================= -->
+
+    <section id="trending" class="movie-section">
+
+        <div class="section-title">
+            <h2>Trending Movies</h2>
+            <a href="#trending">View All</a>
+        </div>
+
+        <div class="movie-row" id="movie-row">
+
+    <div class="movie-card">
+        <span class="rank">1</span>
+
+        <!-- Movie Poster -->
+    <img src="../../images/Eh.jpg" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../../movies/Eh.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="movie-card">
+        <span class="rank">2</span>
+
+        <!-- Movie Poster -->
+    <img src="../../images/Sd.avif" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../movies/Sd.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="movie-card">
+        <span class="rank">3</span>
+
+        <!-- Movie Poster -->
+    <img src="../images/Hp.avif" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../../movies/Hp.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="movie-card">
+        <span class="rank">4</span>
+
+        <!-- Movie Poster -->
+    <img src="../images/Tq.avif" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../../movies/Tq.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="movie-card">
+        <span class="rank">5</span>
+
+        <!-- Movie Poster -->
+    <img src="../images/Ap.jpg" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../../movies/Ap.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="movie-card">
+        <span class="rank">6</span>
+
+        <!-- Movie Poster -->
+    <img src="../images/Ka.jpg" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../../movies/Ka.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="movie-card">
+        <span class="rank">7</span>
+
+        <!-- Movie Poster -->
+    <img src="../images/Dw.jpg" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../../movies/dw.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="movie-card">
+        <span class="rank">8</span>
+
+        <!-- Movie Poster -->
+    <img src="../images/Du.avif" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../../movies/Du.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="movie-card">
+        <span class="rank">9</span>
+
+        <!-- Movie Poster -->
+    <img src="../images/Sw.jpeg" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../movies/Sw.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="movie-card">
+        <span class="rank">10</span>
+
+        <!-- Movie Poster -->
+    <img src="../images/Sm.jpg" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../movies/Sm.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    </div>
+    </section>
+
+    <!-- ================= OTT SECTION ================= -->
+
+    <section id="ott" class="movie-section">
+
+        <div class="section-title">
+            <h2>Trending Web Series</h2>
+            <a href="#ott">View All</a>
+        </div>
+
+        <div class="movie-row" id="movie-row2">
+
+            <div class="movie-card">
+                <span class="rank">1</span>
+
+        <!-- Movie Poster -->
+    <img src="../images/Sn.avif" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../movies/Sn.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="movie-card">
+        <span class="rank">2</span>
+
+        <!-- Movie Poster -->
+    <img src="../images/Got.jpg" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../movies/Got.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="movie-card">
+        <span class="rank">3</span>
+
+        <!-- Movie Poster -->
+    <img src="../images/Vk.jpg" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../movies/Vk.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="movie-card">
+        <span class="rank">4</span>
+
+        <!-- Movie Poster -->
+    <img src="../images/Bb.webp" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../movies/Bb.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="movie-card">
+        <span class="rank">5</span>
+
+        <!-- Movie Poster -->
+    <img src="../images/Ab.jpg" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../movies/Ab.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="movie-card">
+        <span class="rank">6</span>
+
+        <!-- Movie Poster -->
+    <img src="../images/Mh.jpg" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../movies/Mh.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="movie-card">
+        <span class="rank">7</span>
+
+        <!-- Movie Poster -->
+    <img src="../images/Tw.jpg" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../movies/Tw.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="movie-card">
+        <span class="rank">8</span>
+
+        <!-- Movie Poster -->
+    <img src="../images/Dr.jpg" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../movies/Dr.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="movie-card">
+        <span class="rank">9</span>
+
+        <!-- Movie Poster -->
+    <img src="../images/Pb.jpg" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../movies/Pb.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="movie-card">
+        <span class="rank">10</span>
+
+        <!-- Movie Poster -->
+    <img src="../images/Op.jpg" alt="Movie Poster" class="movie-poster">
+
+    <!-- Hidden Video -->
+    <video class="movie-video" controls>
+        <source src="../movies/Op.mp4" type="video/mp4">
+    </video>
+    </div>
+
+        </div>
+        </section>
+
+    <!-- ================= TOP PICKS ================= -->
+
+    <section id="top-picks" class="movie-section">
+        
+        <div class="section-title">
+        <h2>Top Picks For You</h2>
+        <a href="#top-picks">View All</a>
+        </div>
+
+        <div class="movie-row">
+
+            <div class="big-card">
+
+        <!-- Movie Poster -->
+    <img src="../images/Wp.jpg" alt="Movie Poster" class="movie-poster">
+
+    <div class="big-card-content">
+                    <h3>The wonderfools</h3>
+                    <p>The official synopsis and caption used for the action-comedy K-drama The WONDERfools on.
+
+                    </p>
+
+                    <button class="watch-Btn">
+                        Watch Now
+                        <div class="hidden-video">
+                            <!-- Hidden Video -->
+                        <video class="movie-video" controls>
+                            <source src="../movies/Wp.mp4" type="video/mp4">
+                        </video>
+                        </div>
+                        </div>
+                    </button>
+                </div>
+
+    <div class="big-card">
+
+        <!-- Movie Poster -->
+    <img src="../images/Bb.webp" alt="Movie Poster" class="movie-poster">
+
+    <div class="big-card-content">
+                    <h3>Braking Bad</h3>
+                    <p>The king of the Crystal Blue.Walter White in the series Braking Bad plays by Bryan Cranston.
+
+                    </p>
+
+                    <button class="watch-Btn">
+                        Watch Now
+                        <div class="hidden-video">
+                            <!-- Hidden Video -->
+                        <video class="movie-video" controls>
+                            <source src="../movies/Bb.mp4" type="video/mp4">
+                        </video>
+                        </div>
+                        </div>
+                    </button>
+                </div>
+
+                <div class="big-card">
+
+        <!-- Movie Poster -->
+    <img src="../images/Dw.jpg" alt="Movie Poster" class="movie-poster">
+
+    <div class="big-card-content">
+                    <h3>Dhurandhar 2: The Revenge</h3>
+                    <p>The Ultimate Reckoning.
+
+                    </p>
+
+                    <button class="watch-Btn">
+                        Watch Now
+                        <div class="hidden-video">
+                            <!-- Hidden Video -->
+                        <video class="movie-video" controls>
+                            <source src="../movies/dw.mp4" type="video/mp4">
+                        </video>
+                        </div>
+                        </div>
+                    </button>
+                </div>
+
+    </div>
+    </section>
+
+    <!-- ================= GENRES ================= -->
+
+    <section class="genres-section">
+
+        <div class="section-title">
+            <h2>Browse By Genre</h2>
+        </div>
+
+        <div class="genres-grid">
+
+            <a href="#top-picks">
+            <div class="genre-card action">
+
+                <h3>Action</h3>
+            </div></a>
+
+            <a href="#ott">
+            <div class="genre-card horror">
+                <h3>Horror</h3>
+            </div></a>
+
+            <a href="#trending">
+            <div class="genre-card comedy">
+                <h3>Comedy</h3>
+            </div></a>
+
+            <a href="#ott">
+            <div class="genre-card sci-fi">
+                <h3>Sci-Fi</h3>
+            </div></a>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SUBSCRIPTION SECTION ================= -->
+
+    <section class="subscription">
+
+        <div class="subscription-content">
+
+            <h2>Choose Your Premium Plan</h2>
+
+            <p>
+                Unlimited streaming experience with HD quality,
+                offline downloads, and exclusive originals.
+            </p>
+
+            <div class="plans">
+
+                <div class="plan-card">
+
+                    <h3>Basic</h3>
+
+                    <h1>₹199</h1>
+
+                    <p>/month</p>
+
+                    <ul>
+                        <li>720p Streaming</li>
+                        <li>1 Device</li>
+                        <li>Limited Downloads</li>
+                    </ul>
+
+                    <button>Get Started</button>
+
+                </div>
+
+                <div class="plan-card premium">
+
+                    <span class="popular">MOST POPULAR</span>
+
+                    <h3>Premium</h3>
+
+                    <h1>₹499</h1>
+
+                    <p>/month</p>
+
+                    <ul>
+                        <li>4K Ultra HD</li>
+                        <li>4 Devices</li>
+                        <li>Unlimited Downloads</li>
+                    </ul>
+
+                    <button>Subscribe</button>
+
+                </div>
+
+                <div class="plan-card">
+
+                    <h3>Family</h3>
+
+                    <h1>₹799</h1>
+
+                    <p>/month</p>
+
+                    <ul>
+                        <li>4K + HDR</li>
+                        <li>6 Devices</li>
+                        <li>Kids Mode Included</li>
+                    </ul>
+
+                    <button>Join Now</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= NEWSLETTER ================= -->
+
+    <section class="newsletter">
+
+        <div class="newsletter-content">
+
+            <h2>Stay Updated</h2>
+
+            <p>
+                Get updates about latest releases and exclusive OTT content.
+            </p>
+
+            <div class="newsletter-box">
+                <input type="email" placeholder="Enter your email">
+                <button>Subscribe</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-logo">
+
+                <h1>CineVerse</h1>
+
+                <p>
+                    Your ultimate entertainment destination for ../movies,
+                    TV shows, anime, and originals.
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="#">Home</a>
+                <a href="#trending">Movies</a>
+                <a href="#ott">Series</a>
+                <a href="#trending">Trending</a>
+
+            </div>
+
+            <div class="footer-links">
+
+                <h3>Support</h3>
+
+                <a href="#">Help Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+
+            </div>
+
+            <div class="footer-social">
+
+                <h3>Follow Us</h3>
+
+                <div class="social-icons">
+
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 CineVerse. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+    <!-- ================= VIDEO POPUP ================= -->
+
+    <div id="moviePopup">
+
+        <div class="popup-content">
+
+            <span class="close-popup">&times;</span>
+
+            <video id="popupVideo" controls autoplay>
+                <source id="popupSource" src="">
+            </video>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
